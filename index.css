@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color:blueviolet;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Navigation */
+nav {
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    min-height: 400px;
+    flex-direction: column;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 25%;
+    background-color: white;
+    padding: 15px;
+    font-size:1em;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+/* Main Content */
+.main-content {
+    width: 75%;
+    padding: 20px;
+    position: relative;
+}
+
+.main-content img {
+    width: 100%;
+    height: auto;
+}
+
+/* Welcome text on image */
+.welcome-text {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color:purple;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}/* Center card nicely */
+body {
+    min-height: 100vh;
+}
+
+/* Improve table spacing */
+table td {
+    vertical-align: middle;
+}
+
+/* Optional: improve form appearance */
+.card {
+    border-radius: 12px;
+}
